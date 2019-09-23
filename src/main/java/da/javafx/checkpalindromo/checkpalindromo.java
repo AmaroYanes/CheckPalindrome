@@ -37,7 +37,7 @@ public class checkpalindromo extends Application {
 
 		Scene scene = new Scene(root, 320, 200);
 
-		primaryStage.setTitle("HolaMundoFx");
+		primaryStage.setTitle("Comprobador de palíndromos");
 		primaryStage.setScene(scene);
 		primaryStage.show();
 
