@@ -51,8 +51,7 @@ public class checkpalindromo extends Application {
 		for (i = 0; i < tabla.length / 2 && tabla[i] == tabla[tabla.length - 1 - i]; i++) {
 
 		}
-		palin = (i == tabla.length / 2);
-		if (palin) {
+		if ((i == tabla.length / 2)) {
 			palindromeLabel.setStyle("-fx-text-fill: green; -fx-font: italic bold 30 sans-serif;");
 			palindromeLabel.setText("Es palindromo");
 		} else {
