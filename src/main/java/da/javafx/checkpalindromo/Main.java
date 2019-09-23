@@ -1,9 +1,9 @@
-package da.javafx.holamundo;
+package da.javafx.checkpalindromo;
 
 public class Main {
 
 	public static void main(String[] args) {
-		HolaMundoApp.main(args);
+		checkpalindromo.main(args);
 		
 	}
 

@@ -1,4 +1,4 @@
-package da.javafx.holamundo;
+package da.javafx.checkpalindromo;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -13,7 +13,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 //se suele poner el App al final para diferenciar
-public class HolaMundoApp extends Application {
+public class checkpalindromo extends Application {
 
 	private Label palindromeLabel;
 	private Button checkButton;
